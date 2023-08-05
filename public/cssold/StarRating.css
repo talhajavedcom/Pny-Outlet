@@ -1,0 +1,9 @@
+
+.starrating{
+    color: #f3151b; /* Color for filled stars */
+  }
+  
+  .star-rating i.filled {
+    color: #17a2b8; /* Color for filled stars */
+  }
+

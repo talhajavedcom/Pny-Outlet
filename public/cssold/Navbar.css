@@ -1,0 +1,219 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.Navbar {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*                                               logo */
+
+.logo {
+  margin: 0.2rem;
+}
+.logo img {
+  height: 70px;
+}
+/*                                                links */
+.links a {
+  font-family: "poppins";
+  text-decoration: none;
+  margin-left: 1rem;
+  color: #2ecaf7;
+  font-family: "poppins";
+  font-weight: 500;
+}
+
+.links a:hover {
+  color: #f3151b;
+  transition: all.5s ease-in-out;
+  font-weight: 600;
+  
+}
+.links a:active {
+     
+  color: #f3151b;
+  transition: all.5s ease-in-out;
+  font-weight: 600;
+}
+/*                                                 icon */
+.icons {
+  
+  cursor: pointer;
+  position: relative;
+  color: #f3151b;
+}
+.icons sup {
+  position: absolute;
+  right: -30%;
+  background-color: rgb(100, 22, 22);
+  color: rgb(207, 54, 54);
+  font-family: "poppins";
+  padding: 0rem 0.2rem;
+  font-size: 11px;
+  border-radius: 50%;
+}
+
+.AccountsBtn button{
+  padding: .5rem 1rem;
+  font-family: "poppins";
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #2ecaf7;
+  font-weight: 400;
+  margin-left: 1rem;
+border-radius: 6px;
+box-shadow: rgba(230, 60, 60, 0.24) 0px 3px 8px;
+}
+.AccountsBtn button:hover{
+    color: #f3151b;
+  transition: all.5s ease-in-out;
+  box-shadow: #2ecaf7 0px 3px 8px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .Navbar {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /*                                               logo */
+  
+  .logo {
+    margin: 0.2rem;
+  }
+  .logo img {
+    height: 70px;
+  }
+  /*                                                links */
+  .links a {
+    
+  display: none;
+    font-family: "poppins";
+    text-decoration: none;
+    margin-left: 1rem;
+    color: #2ecaf7;
+    font-family: "poppins";
+    font-weight: 500;
+  }
+  
+  .links a:hover {
+    color: #f3151b;
+    transition: all.5s ease-in-out;
+    font-weight: 600;
+    
+  }
+  .links a:active {
+       
+    color: #f3151b;
+    transition: all.5s ease-in-out;
+    font-weight: 600;
+  }
+  /*                                                 icon */
+  .icons {
+    
+  display: none;
+    cursor: pointer;
+    position: relative;
+    color: #f3151b;
+  }
+  .icons sup {
+    position: absolute;
+    right: -30%;
+    background-color: rgb(100, 22, 22);
+    color: rgb(207, 54, 54);
+    font-family: "poppins";
+    padding: 0rem 0.2rem;
+    font-size: 11px;
+    border-radius: 50%;
+  }
+  
+  .AccountsBtn  button{
+    padding: .5rem 1rem;
+    font-family: "poppins";
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #2ecaf7;
+    font-weight: 400;
+    margin-left: 1rem;
+  border-radius: 6px;
+  box-shadow: rgba(230, 60, 60, 0.24) 0px 3px 8px;
+  }
+  .AccountsBtn button:hover{
+      color: #f3151b;
+    transition: all.5s ease-in-out;
+    box-shadow: #2ecaf7 0px 3px 8px;
+  }
+  
+}
+
+
+.btncart {
+  padding: .5rem 1rem;
+  font-family: "poppins";
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #2ecaf7;
+  font-weight: 400;
+  margin-left: 1rem;
+border-radius: 6px;
+box-shadow: rgba(230, 60, 60, 0.24) 0px 3px 8px;
+}
+.btncart:hover{
+  color: #f3151b;
+transition: all.5s ease-in-out;
+box-shadow: #2ecaf7 0px 3px 8px;
+}
+
+
+.btncart-counter{
+  padding: .5rem 1rem;
+  font-family: "poppins";
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #2ecaf7;
+  font-weight: 800;
+  margin-left: 1rem;
+border-radius: 6px;
+box-shadow: #2ecaf7 0px 3px 8px;
+}
+
+.gbtn{
+  padding: .5rem 1rem;
+  font-family: "poppins";
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #2ecaf7;
+  font-weight: 400;
+  margin-left: 1rem;
+border-radius: 6px;
+box-shadow: rgba(230, 60, 60, 0.24) 0px 3px 8px;
+}
+
+.gbtn:active{
+  padding: .5rem 1.5rem;
+  font-family: "poppins";
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #2ecaf7;
+  font-weight: 800;
+  margin-left: 1.5rem;
+border-radius: 12px;
+box-shadow: rgba(255, 0, 0, 0.24) 0px 3px 8px;
+}
